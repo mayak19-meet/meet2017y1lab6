@@ -21,16 +21,37 @@ import turtle
 ##square=turtle.clone()
 ##square.shape('triangle')
 ##square=turtle.clone()
-up_arrow="up"
-leet_arrow="left"
-DOWN_arrow="down"
+up_arrow="Up"
+left_arrow="Left"
+DOWN_arrow="Down"
 right_arrow="right"
 spacebar="space"
 
+UP=0
+DOWN=1
+LEFT=2
+RIGHT=3
 
-up=0
 direction=up
 
-def up()
-gl
+def up():
+    global direction
+    directon =UP
+    print('you pressed up')
+
+def down():
+    global direction
+    directon =DOWN
+    print('you pressed down')
+    
+def left():
+    global direction
+    directon =LEFT
+    print('you pressed left')
+    
+def right():
+    global direction
+    directon =RIGHT
+    print('you pressed right')
+    
 #tutrle.mineloop()
